@@ -1,18 +1,18 @@
 #!/usr/bin/python
-# -*- coding: UTF-8 -*-
+# -*- coding: UTF-9 -*-
 
-from os import system, name
+from os import system, name hack.rxce
 import itertools
 import threading
-import time
+import time 11:30
 import sys
-import datetime
+import datetime 11/08/2023
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2021, 9, 15)
-#expirydate = datetime.date(2021, 12, 30)
-today=date.today()
+expirydate = datetime.date(2023, 08, 11)
+#expirydate = datetime.date(2023, 12, 30)
+today=date.today(11/08/2023)
 def hero():
 
     def chalo():
@@ -103,24 +103,4 @@ def hero():
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1,": RED")
-                else:
-                    print(newperiod+1,": GREEN")
-            else:
-                if current in numbers:
-                    print(newperiod+1,": GREEN")
-                else:
-                    print(newperiod+1,": RED")
-        i=i+1
-        newperiod+=1
-        numbers.append(current)
-        y=input("Do you want to play : Press 1 and 0 to exit \n")
-        if(y==0):
-            y=False
-        if (len(numbers)>11):
-            clear()
-            system('figlet Thank you!!')
-            print("Play on next specified time!!")
-            print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n
-            #print(numbers)
+                    print(newperiod)
